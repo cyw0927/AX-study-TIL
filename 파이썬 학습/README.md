@@ -106,32 +106,40 @@ repository, commit, push, pull, clone, branch, fetch 같은 말을 실제 명령
 ### 14. 웹개발 입문
 
 26. [웹이 뭔가요?](./14_웹개발입문/23_웹이뭔가요.md)
+27. [HTML과 CSS 진짜 기초](./14_웹개발입문/24_HTML_CSS_진짜기초.md)
+28. [Flask 첫 실행](./14_웹개발입문/25_Flask_첫실행.md)
 
-브라우저, 서버, HTML, CSS, JavaScript, Flask, localhost, port가 각각 무슨 역할인지부터 구분한다.
+브라우저, 서버, HTML, CSS, Flask, localhost, port가 각각 무슨 역할인지부터 실제 첫 서버 실행까지 연결한다.
 
 ### 15. 미니프로젝트
 
-27. [첫 미니프로젝트 - 점수 평균 프로그램](./15_미니프로젝트/27_첫미니프로젝트.md)
+29. [첫 미니프로젝트 - 점수 평균 프로그램](./15_미니프로젝트/27_첫미니프로젝트.md)
 
 `input`, 리스트, `append`, `for`, `len`, `if`를 한 프로그램 안에서 연결해 본다.
 
 ### 16. 알고리즘 문제풀이
 
-28. [알고리즘 문제 읽는 순서](./16_알고리즘문제풀이/26_문제읽는순서.md)
+30. [알고리즘 문제 읽는 순서](./16_알고리즘문제풀이/26_문제읽는순서.md)
+31. [문자열 문제 기초](./16_알고리즘문제풀이/27_문자열문제_기초.md)
+32. [리스트 문제 기초](./16_알고리즘문제풀이/28_리스트문제_기초.md)
 
-문제를 보자마자 코드를 쓰지 않고 입력 → 출력 → 손계산 → 변수 → 반복 → 조건 순서로 쪼개는 습관을 만든다.
+문제를 보자마자 코드를 쓰지 않고 입력 → 출력 → 손계산 → 변수 → 반복 → 조건 순서로 쪼개는 습관을 만든 뒤 문자열과 리스트 문제로 연습한다.
 
 ### 17. SQL 입문
 
-29. [SQL이 뭔가요?](./17_SQL입문/24_SQL이뭔가요.md)
+33. [SQL이 뭔가요?](./17_SQL입문/24_SQL이뭔가요.md)
+34. [SELECT 연습](./17_SQL입문/25_SELECT연습.md)
+35. [Python과 SQLite](./17_SQL입문/26_Python과SQLite.md)
 
-데이터베이스, 테이블, 행과 열부터 `SELECT`, `WHERE`, `ORDER BY`, `INSERT`, `UPDATE`, `DELETE`까지 아주 기초부터 다룬다.
+데이터베이스, 테이블, 행과 열부터 `SELECT`, `WHERE`, 정렬, 집계, SQLite 연결까지 이어서 다룬다.
 
 ### 18. API 기초
 
-30. [API가 뭔가요?](./18_API기초/25_API가뭔가요.md)
+36. [API가 뭔가요?](./18_API기초/25_API가뭔가요.md)
+37. [requests 첫 실습](./18_API기초/26_requests_첫실습.md)
+38. [JSON 읽기](./18_API기초/27_JSON읽기.md)
 
-request, response, GET, POST, JSON, 상태 코드, API 키 같은 말을 Python과 연결해서 설명한다.
+request, response, GET, POST, JSON, 상태 코드, API 키를 배우고 Python에서 응답을 실제로 읽는 흐름까지 연결한다.
 
 ---
 
@@ -139,9 +147,9 @@ request, response, GET, POST, JSON, 상태 코드, API 키 같은 말을 Python�
 
 ```text
 14_웹개발입문/
-  ├─ HTML_CSS_진짜기초
-  ├─ Flask_첫실행
-  └─ 폼과로그인흐름
+  ├─ Flask_템플릿
+  ├─ 폼입력
+  └─ 로그인흐름
 
 15_미니프로젝트/
   ├─ 메뉴추천기
@@ -149,18 +157,17 @@ request, response, GET, POST, JSON, 상태 코드, API 키 같은 말을 Python�
   └─ CSV분석기
 
 16_알고리즘문제풀이/
-  ├─ 문자열문제
-  ├─ 리스트문제
   ├─ 반복문문제
-  └─ 딕셔너리문제
+  ├─ 딕셔너리문제
+  └─ 2차원리스트문제
 
 17_SQL입문/
-  ├─ SELECT연습
-  └─ Python과SQLite
+  ├─ INSERT_UPDATE_DELETE
+  └─ JOIN기초
 
 18_API기초/
-  ├─ requests실습
-  └─ JSON읽기
+  ├─ POST요청
+  └─ API오류처리
 ```
 
 각 주제 안에서도 문서가 많아지면 다시 세부 폴더로 나눈다. 예를 들어 pandas 문서가 많아지면 `읽기`, `정리`, `집계`, `시각화연결`처럼 더 잘게 나눌 수 있다.
